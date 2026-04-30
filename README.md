@@ -15,7 +15,7 @@ ADD COLUMN CUST_PASSWORD varchar(32);
 
 2. Install required dependencies using `pip install -r requirements.txt`
 
-3. Edit `.env` with MySQL connection information
+3. Create `.env` with MySQL connection information
 
 4. Start the backend with `fastapi dev`. Will establish connection with database from credentials in `.env`
 
