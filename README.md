@@ -1,5 +1,12 @@
 ## Running the Application
 
+### Database
+The following column must be added to run the application properly.
+```
+ALTER TABLE CUSTOMER
+ADD COLUMN CUST_PASSWORD varchar(32);
+```
+
 ### Backend
 
 1. Activate python virtual environment `source .venv/bin/activate`
