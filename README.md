@@ -11,6 +11,8 @@ ADD COLUMN CUST_PASSWORD varchar(32);
 
 1. Activate python virtual environment `source .venv/bin/activate`
 
+- You might need to create a new virtual envirionment with `python -m venv .venv`
+
 2. Install required dependencies using `pip install -r requirements.txt`
 
 3. Start the backend with `fastapi dev`. Will establish connection with database from credentials in `.env`
